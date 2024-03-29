@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: slim (yuki-math-blog)
+    name: Luna-slim-beta
     env: python
     region: Oregon
     plan: free
