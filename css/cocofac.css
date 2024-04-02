@@ -45,12 +45,12 @@
 
 #g-nav li{
 	list-style: none;
-    text-align: center;
-	font-size: 15000px;
+    text-align: center；
 }
 
 #g-nav li a{
 	color: #333;
+	font-size: 15000px;
 	text-decoration: none;
 	padding:10px;
 	display: block;
