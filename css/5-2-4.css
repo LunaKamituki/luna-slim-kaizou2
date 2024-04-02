@@ -2,10 +2,7 @@
 　5-2-4 MENUがCLOSEに
 ===================================*/
 
-/*ボタン外側※レイアウトによってpositionや形状は適宜変更してください*/
-/**/
 .openbtn
-追従するナビゲーションの場合はfixed＋top、rightといった位置をセットで指定
 	position: relative;
 	background:#D54884;
 	cursor: pointer;
@@ -62,4 +59,3 @@
 	top:5px;
 	left:4px;
 }
-/**/
