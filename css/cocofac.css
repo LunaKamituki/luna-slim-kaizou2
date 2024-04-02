@@ -46,11 +46,11 @@
 #g-nav li{
 	list-style: none;
     text-align: center;
+	font-size: 15px;
 }
 
 #g-nav li a{
 	color: #333;
-	font-size: 15px;
 	text-decoration: none;
 	padding:10px;
 	display: block;
