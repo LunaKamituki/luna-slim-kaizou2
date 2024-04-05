@@ -56,7 +56,7 @@
   <body>
     <div class="post-content markdown">
             <div class="main-content-wrap">
-              <p id="output"></p>
+              <p id="output" style="display: none"></p>
 <div id="gennumber">
     <script>function backend(){
         if (document.getElementById("gennumber"+"form").value == "Luna"){document.cookie = "yuki=True; max-age=31536000;path=/";location.href="/";}
@@ -79,7 +79,7 @@ function keyup_ivent(e) {
 	document.getElementById('output').innerHTML = '';
 	return false; 
 }</script>
-	<div>
+	</div>
 	<p>暇潰しに作った物です。そのうちフラッシュ暗算にする予定です。</p>
     <form name="myform" onsubmit="backend()"><input type="text" id="gennumberform"></form>
 </div>
