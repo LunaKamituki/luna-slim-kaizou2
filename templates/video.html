@@ -99,6 +99,15 @@
         </div>
     </div>
     <div class="pure-u-1 pure-u-md-2-24"></div>
+			    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+　　  <script>  $(".openbtn").click(function () {//ボタンがクリックされたら
+	$(this).toggleClass('active');//ボタン自身に activeクラスを付与し
+    $("#g-nav").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
+});
+$("#g-nav a").click(function () {//ナビゲーションのリンクがクリックされたら
+    $(".openbtn").removeClass('active');//ボタンの activeクラスを除去し
+    $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
+});</script>
     <script>
         document.cookie = "yuki=True;max-age=2592000;";
         function getCookie(name) { let matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)")); return matches ? decodeURIComponent(matches[1]) : undefined; }
