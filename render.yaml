@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: Luna-slim-beta-kaizou2
+    name: Luna-slim-kaizou2
     env: python
     region: Oregon
     plan: free
